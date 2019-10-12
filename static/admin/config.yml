@@ -16,3 +16,20 @@ collections:
       - {label: "Excerpt", name: "excerpt", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "date"}
       - {label: "Body", name: "body", widget: "markdown"}
+  - label: "Pages"
+    name: "pages"
+    files:
+      - label: "Index"
+        name: "index"
+        file: "src/pages/_index.md"
+        fields: 
+          - {label: Title, name: title, widget: string}
+          - {label: SubTitle, name: subtitle, widget string:}
+          - {label: Image, name: image, widget: image}
+          - label: "Locations"
+            name: "locations"
+            widget: list
+            fields:
+              - {label: "Location", name: "location", widget: string}
+              - {label: "Address", name: "address", widget: string}
+
