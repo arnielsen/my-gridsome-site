@@ -21,7 +21,7 @@ collections:
     files:
       - label: "Index"
         name: "index"
-        file: "src/pages/_index.md"
+        file: "content/_index.md"
         fields: 
           - {label: Title, name: title, widget: string}
           - {label: SubTitle, name: subtitle, widget string:}
